@@ -13,6 +13,6 @@ ENDCLASS.
 
 CLASS zcl_af_from_git IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello World!' ).
+    out->write( 'Hello World! SAP' ).
   ENDMETHOD.
 ENDCLASS.
