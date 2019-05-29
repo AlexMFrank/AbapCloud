@@ -1,7 +1,7 @@
 CLASS zcl_af_from_git DEFINITION
   PUBLIC
   FINAL
-  CREATE PUBLIC .
+  CREATE PUBLIC.
 
   PUBLIC SECTION.
     INTERFACES if_oo_adt_classrun.
@@ -10,9 +10,10 @@ CLASS zcl_af_from_git DEFINITION
 ENDCLASS.
 
 
-
 CLASS zcl_af_from_git IMPLEMENTATION.
+
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello World! SAP' ).
+    out->write( 'Hello World!' ).
   ENDMETHOD.
+
 ENDCLASS.
