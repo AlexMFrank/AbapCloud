@@ -13,7 +13,7 @@ ENDCLASS.
 CLASS zcl_af_from_git IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello Flo!' ).
+    out->write( 'Hello Wacker!' ).
   ENDMETHOD.
 
 ENDCLASS.
